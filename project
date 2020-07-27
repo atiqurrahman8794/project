@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div class="header">
+    <div class="container1">
+        <span style="color: #fff; font-size: 20px; display:inline- block;
+        padding-top: 8px;"> 
+     Frist project of Ledp</span>
+    <ul>
+       <li><a href="#footer0">footer</a>    </li>
+       <li><a href="">service</a>    </li>
+       <li><a href="#project">project</a>    </li>
+       <li><a href="">home</a>    </li>
+    </ul>
+
+    </div>
+</div>
+<div class="section1">
+  <div class="overlay">
+      <div class="container1">
+      <h2 class="name"> Atiqur Rahman</h2>
+      <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,<br>
+           by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum,<br>
+           you need to be sure there isn't anything embarrassing hidden in the middle of text. <br> All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary,
+      </p>
+      <button class="btn1">Dwonload my cv  </button>
+
+      </div>
+
+  </div>
+
+</div>
+<div section2>
+   
+   <center>
+    <h2>Create</h2>
+   <p>There are many variations of passages of Lorem Ipsum available,
+        but<br> the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, <br>you need to be sure there isn't anything embarrassing hidden in the middle of text.<br> All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, 
+        making this the first true generator on the Internet.
+        </p>
+        <button class="btn1">Create</button>
+
+   </center>
+</div>>
+
+
+<div class="section3" id="project">
+    <div  class="container1">
+        <table>
+          <tr>
+           <td style="vertical-align: top;">
+            <div class="sect3">
+                <h2>my project</h2>
+                <p>There are many variations of passages of Lorem Ipsum available,
+                    but<br> the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, <br>you need to be sure there isn't anything embarrassing hidden in the middle of text.<br> All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, 
+                    making this the first true generator on the Internet.
+                    </p>
+                    <button class="btn2">click here</button>
+            </div>
+
+           </td>
+           <td>
+           <img sec="p.jpg" alt="" height="300"
+
+
+           </td>
+
+           </tr>
+        </table>
+   body{
+ margin: 0;
+padding: 0;
+
+   }
+ 
+ .container1{
+width: 80%;
+margin: auto;
+
+ }
+ .name{
+padding-top: 175px;
+
+ }
+ .section1{
+ background-image: url(p.jpg);
+ background-size: cover;
+ background-attachment: fixed;
+ height: 500px;
+width: 100%;
+color:black;
+ }
+ .coverlay{
+background-color: black;
+ height: 500px;
+opacity: 0.7;
+
+ }
+ .btn1{
+background-color: transparent;
+color: red;
+border: 2px solid green;
+padding: 10px;
+font-weight: 7px;
+
+ }
+ btn2{
+ background-color: transparent;
+
+ color: black;
+ border: 2px solid black;
+ padding: 10px;
+
+ }
+ .btn2:hover{
+ color: black;
+ background-color: blue;
+ border: 2px solid yellow;
+ cursor: no-drop;
+
+ }
+ .section2{
+ color: #fff;
+ background-color: #313131;
+padding: 30px 0px 30px 0px;
+
+
+ }
+.l{
+ width: 45%;
+
+}
+.r{
+width: 45%;
+
+}
+.section3{
+ overflow: hidden;
+padding: 30px 0px 30px 0px;
+}
+.sect{
+   margin-left: 50px;
+}
+.sect2{
+ margin-right: 50px;
+
+}
+footer{
+   background-color: #313131;
+   color: #fff;
+}
+.header{
+ background-color: tomato;
+ overflow: hidden;
+}
+ul{
+ list-style-type: none;
+ display: inline;
+}
+ ul li{
+ display: inline-block;
+ float: right;
+
+ }
+ ul li:hover{
+ background-color: white;
+
+ }
+ ul li a{
+ color: black;
+
+
+ }
+ .header{]margin-bottom: -20px;}
+
+html{
+  scroll-behavior: smooth;
+
+
+}
+
+
+
+    </div>
+
+</div>
+    <div class="footer" id="footer0">
+ <center>
+   <h2>first project ledp</h2>
+   copyright@2020 <br>
+
+
+
+
+
+
+ </center>
+    </div>
+
+
+</div>
+
+ </div>
+
+</body>
+</html>
